@@ -1,4 +1,4 @@
-<h1>Hi, I'm Laz! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Cybersecurity Professional</a>, <a href="https://www.youtube.com/c/joshmadakor">YouTuber</a></h1>
+<h1>Hi, I'm Laz! <br/><a  <a href="https://www.linkedin.com/in/lazaro-denis-cybersecurity/">Cybersecurity Professional</a>, 
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
