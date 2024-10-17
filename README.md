@@ -6,7 +6,7 @@
   - [Active Directory Home Lab](https://github.com/joshmadakor1/Algorithms-Practice)
  
   - <b>Certifications</b>
-  - [Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
+  - [Google Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
 
 <h2> 🤳 Connect with me:</h2>
 
