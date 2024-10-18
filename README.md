@@ -8,6 +8,9 @@
   - <b>Certifications</b>
   - [Google Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
 
+  - <b>OS Hardening</b>
+  - [Google Cyber Security Certification](https://github.com/ldenis001/OS-Hardening)
+    
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="LazCyber | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
