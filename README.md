@@ -9,7 +9,7 @@
   - [Google Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
 
   - <b>OS Hardening</b>
-  - [Google Cyber Security Certification](https://github.com/ldenis001/OS-Hardening)
+  - [Risk Assessment & Hardening](https://github.com/ldenis001/OS-Hardening)
     
 <h2> 🤳 Connect with me:</h2>
 
