@@ -17,7 +17,6 @@
 
 [linkedin]: https://www.linkedin.com/in/lazaro-denis-cybersecurity/
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
