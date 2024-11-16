@@ -21,7 +21,7 @@
   - [Case Study: Data Leak Incident and Mitigation Strategies](https://github.com/ldenis001/Data-Leak-Incident-and-Mitigation-Strategies)
 
   -   <b>Linux (Labwork)</b>
-  - [Managing File Permissions in Linux](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
+  - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
     
 <h2> 🤳 Connect with me:</h2>
 
