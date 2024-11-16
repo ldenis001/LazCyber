@@ -22,6 +22,9 @@
 
   -   <b>Linux (Labwork)</b>
   - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
+
+  -   <b>SQL (Labwork)</b>
+  - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
     
 <h2> 🤳 Connect with me:</h2>
 
