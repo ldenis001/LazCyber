@@ -16,6 +16,9 @@
 
   -  <b>Python Debugging: and Automation (Labwork)</b>
   - [Python Debugging and Enhancing code Accuracy & Efficiency](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
+
+  -  <b>Data Leak Incident Response (Labwork)</b>
+  - [Case Study: Data Leak Incident and Mitigation Strategies](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
     
 <h2> 🤳 Connect with me:</h2>
 
