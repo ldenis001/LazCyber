@@ -10,6 +10,9 @@
 
   - <b>Risk Assessment</b>
   - [OS Hardening](https://github.com/ldenis001/OS-Hardening)
+ 
+  -  <b>Network Hardening</b>
+  - [Network Incident & Hardening](https://github.com/ldenis001/Network-Hardening)
     
 <h2> 🤳 Connect with me:</h2>
 
