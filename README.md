@@ -24,7 +24,7 @@
   - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
 
   -   <b>SQL (Labwork)</b>
-  - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
+  - [Query Filter Applications for Security and Employee Data Management](https://github.com/ldenis001/SQL-Lab)
     
 <h2> 🤳 Connect with me:</h2>
 
