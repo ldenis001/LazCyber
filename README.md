@@ -13,6 +13,9 @@
 
   -  <b>Provided Risk Assessment to independant company (LabWork)</b>
   - [Compliance Risk Assessment](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
+
+  -  <b>Python Debugging: and Automation (Labwork)</b>
+  - [Python Debugging and Enhancing code Accuracy & Efficiency](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
     
 <h2> 🤳 Connect with me:</h2>
 
