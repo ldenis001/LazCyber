@@ -1,9 +1,6 @@
 <h1>Hi, I'm Laz! <br/><a  <a href="https://www.linkedin.com/in/lazaro-denis-cybersecurity/">Cybersecurity Professional</a>, 
 
 <h2>👨‍💻 Cyber Security Projects:</h2>
-
-- <b>Provided Risk Assessment to independant company (LabWork)</b>
-  - [Compliance Risk Assessment](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
  
   - <b>Certifications</b>
   - [Google Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
@@ -13,6 +10,9 @@
  
   -  <b>Network Hardening</b>
   - [Network Incident & Hardening](https://github.com/ldenis001/Network-Hardening)
+
+  -  <b>Provided Risk Assessment to independant company (LabWork)</b>
+  - [Compliance Risk Assessment](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
     
 <h2> 🤳 Connect with me:</h2>
 
