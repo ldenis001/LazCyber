@@ -11,7 +11,7 @@
   -  <b>Network Hardening</b>
   - [Network Incident & Hardening](https://github.com/ldenis001/Network-Hardening)
 
-  -  <b>Provided Risk Assessment to independant company (LabWork)</b>
+  -  <b>Provided Risk Assessment to independant company (Labwork)</b>
   - [Compliance Risk Assessment](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
 
   -  <b>Python Debugging: and Automation (Labwork)</b>
