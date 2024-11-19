@@ -3,7 +3,7 @@
 <h2>👨‍💻 Cyber Security Projects:</h2>
  
   - <b>Certifications</b>
-  - [Google Cyber Security Certification](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
+  - [Copy of Certificates](https://github.com/ldenis001/LazCyber/blob/main/Cyber%20Security%20Certificate.pdf)
 
   - <b>Risk Assessment</b>
   - [OS Hardening](https://github.com/ldenis001/OS-Hardening)
