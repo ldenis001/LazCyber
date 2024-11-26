@@ -1,5 +1,11 @@
 <h1>Hi, I'm Laz! <br/><a  <a href="https://www.linkedin.com/in/lazaro-denis-cybersecurity/">Cybersecurity Professional</a>, 
 
+<div align="center">
+  <a href="#">
+    <img src="https://github-readme-stats.vercel.app/api?username=ldenis001&show_icons=true&count_private=true&theme=dark" width="350">
+  </a>
+</div>
+
 <h2>👨‍💻 Cyber Security Projects:</h2>
  
   - <b>Certifications</b>
