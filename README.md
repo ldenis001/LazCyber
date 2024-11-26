@@ -5,6 +5,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=ldenis001&show_icons=true&hide_title=true&hide=prs,issues,contribs&count_private=true&custom_title=GitHub%20Stats&include_all_commits=true&theme=dark&hide_rank=true" width="350">
   </a>
 </div>
+
 <h2>👨‍💻 Cyber Security Projects:</h2>
  
   - <b>Certifications</b>
