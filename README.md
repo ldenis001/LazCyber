@@ -34,7 +34,7 @@
   - [Query Filter Applications for Security and Employee Data Management](https://github.com/ldenis001/SQL-Lab)
 
    -   <b>Ethical Hacking (Labwork)</b>
-  - [Ethical Hacking with Linux: Gobuster Directory Scanning Project ](https://github.com/ldenis001/SQL-Lab)
+  - [Ethical Hacking with Linux: Gobuster Directory Scanning Project ](https://github.com/ldenis001/Gobuster-Hacking)
     
 <h2> 🤳 Connect with me:</h2>
 
