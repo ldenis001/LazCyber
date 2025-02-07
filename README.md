@@ -25,7 +25,7 @@
   - [Python Debugging and Enhancing code Accuracy & Efficiency](https://github.com/ldenis001/Python-Debugging-Lab-Enhancing-Code-Accuracy-and-Efficiency)
 
   -  <b>Python Automation (Created a Scripted to autoapply to linkedin and Indeed jobs)</b>
-  - [Created a Scripted to autoapply to linkedin and Indeed jobs](https://github.com/ldenis001/Python-Debugging-Lab-Enhancing-Code-Accuracy-and-Efficiency)
+  - [Created a Scripted to autoapply to linkedin and Indeed jobs]([https://github.com/ldenis001/Python-Debugging-Lab-Enhancing-Code-Accuracy-and-Efficiency](https://github.com/ldenis001/Auto-application-Script/blob/main/README.md)
 
   -  <b>Data Leak Incident Response (Labwork)</b>
   - [Case Study: Data Leak Incident and Mitigation Strategies](https://github.com/ldenis001/Data-Leak-Incident-and-Mitigation-Strategies)
