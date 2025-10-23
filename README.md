@@ -1,8 +1,8 @@
 # Lazaro Denis – Cybersecurity Professional  
 
-Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
+Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and CompTIA Security+ and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
 
-## 🔧 Skills & Tools  
+## 🔏 Skills & Tools  
 
 - Network security, vulnerability assessment, and penetration testing  
 - Risk analysis and compliance frameworks (e.g., NIST, ISO 27001)  
@@ -21,7 +21,7 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 
 ## 🗘️ Certifications  
 
-I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and continuously pursue new learning opportunities to stay current with evolving threats.  
+I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and [CompTIA Security+](https://www.comptia.org/certifications/security) and continuously pursue new learning opportunities to stay current with evolving threats.  
 
 ## 📧 Contact & Links  
 
@@ -29,4 +29,4 @@ I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security
 - GitHub: [ldenis001](https://github.com/ldenis001)  
 - Email: *Feel free to reach out via LinkedIn or GitHub*  
 
-Thanks for visiting my portfolio! I'm excited to connect and collaborate on cybersecurity projects. 
+Thanks for visiting my portfolio! I'm excited to connect and collaborate on cybersecurity projects.
