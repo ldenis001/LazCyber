@@ -24,12 +24,16 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 
 ## 🗜️ Certifications  
 
-I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and hold the CompTIA Security+ certification. I continuously pursue new learning opportunities to stay current with evolving threats.  
+- **CompTIA Security+ (SY0‑701)** – valid through Oct 6 2028  
+- **Splunk: Introduction to Enterprise Security** – Completed Nov 19 2024  
+- **NIST Security & Privacy Controls Introductory Course** – Completed Apr 2024  
+- [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf)  
+- [Full certificate list (PDF)](./certificates/Certificate%20List%20Cyber.pdf)  
+
+I continuously pursue new learning opportunities to stay current with evolving threats.  
 
 ## 📧 Contact & Links  
 
 - LinkedIn: [lazaro-denis-cybersecurity](https://www.linkedin.com/in/lazaro-denis-cybersecurity/)  
 - GitHub: [ldenis001](https://github.com/ldenis001)  
-- Email: *Feel free to reach out via LinkedIn or GitHub*  
-
-Thanks for visiting my portfolio! I'm excited to connect and collaborate on cybersecurity projects.
+- Email: *Feel free to reach out via LinkedIn or GitHub* 
