@@ -1,66 +1,32 @@
-<h1>Hi, I'm Laz! <br/><a  <a href="https://www.linkedin.com/in/lazaro-denis-cybersecurity/">Cybersecurity Professional</a>, 
+# Lazaro Denis – Cybersecurity Professional  
 
+Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
 
-<div ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ldenis001&show_icons=true&hide_title=true&hide=prs,issues,contribs&count_private=true&custom_title=GitHub%20Stats&include_all_commits=true&theme=dark&hide_rank=true)
-</div>
+## 🔧 Skills & Tools  
 
-<h2>👨‍💻 Cyber Security Projects:</h2>
- 
-  - <b>Certifications</b>
-  - [Copy of Certificates](https://github.com/ldenis001/Certificate-Copy)
+- Network security, vulnerability assessment, and penetration testing  
+- Risk analysis and compliance frameworks (e.g., NIST, ISO 27001)  
+- Operating system hardening (Windows & Linux)  
+- Python scripting for automation and debugging  
+- Cloud security fundamentals  
+- Excellent communication and stakeholder management skills  
 
-  - <b>Risk Assessment</b>
-  - [OS Hardening](https://github.com/ldenis001/OS-Hardening)
- 
-  -  <b>Network Hardening</b>
-  - [Network Incident & Hardening](https://github.com/ldenis001/Network-Hardening)
+## 💂 Featured Projects  
 
-  -  <b>Provided Risk Assessment to independant company (Labwork)</b>
-  - [Compliance Risk Assessment](https://github.com/ldenis001/Botium-Toys-Audit/tree/main)
+- **Copy of Certificates** – A repository containing my professional certifications in cybersecurity and related fields.  
+- **OS Hardening** – A project demonstrating best practices for hardening operating systems against common threats.  
+- **Network Hardening** – Hands-on exercises for securing networks and responding to incidents.  
+- **Compliance Risk Assessment** – A case study where I performed a risk assessment for a fictitious company to evaluate compliance readiness.  
+- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and accuracy.  
 
-  -  <b>Python Debugging: and Automation (Labwork)</b>
-  - [Python Debugging and Enhancing code Accuracy & Efficiency](https://github.com/ldenis001/Python-Debugging-Lab-Enhancing-Code-Accuracy-and-Efficiency)
+## 🗘️ Certifications  
 
-  -  <b>Python Automation (Created a Scripted to autoapply to linkedin and Indeed jobs)</b>
-  - [Created a Scripted to autoapply to linkedin and Indeed jobs]([https://github.com/ldenis001/Python-Debugging-Lab-Enhancing-Code-Accuracy-and-Efficiency](https://github.com/ldenis001/Auto-application-Script/blob/main/README.md)
+I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and continuously pursue new learning opportunities to stay current with evolving threats.  
 
-  -  <b>Data Leak Incident Response (Labwork)</b>
-  - [Case Study: Data Leak Incident and Mitigation Strategies](https://github.com/ldenis001/Data-Leak-Incident-and-Mitigation-Strategies)
+## 📧 Contact & Links  
 
-  -   <b>Linux (Labwork)</b>
-  - [Managing File Permissions in Linux](https://github.com/ldenis001/Linux-Lab)
+- LinkedIn: [lazaro-denis-cybersecurity](https://www.linkedin.com/in/lazaro-denis-cybersecurity/)  
+- GitHub: [ldenis001](https://github.com/ldenis001)  
+- Email: *Feel free to reach out via LinkedIn or GitHub*  
 
-  -   <b>SQL (Labwork)</b>
-  - [Query Filter Applications for Security and Employee Data Management](https://github.com/ldenis001/SQL-Lab)
-
-   -   <b>Ethical Hacking (Labwork)</b>
-  - [Ethical Hacking with Linux: Gobuster Directory Scanning Project ](https://github.com/ldenis001/Gobuster-Hacking)
-    
-<h2> 🤳 Connect with me:</h2>
-
-[<img align="left" alt="LazCyber | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]: https://www.linkedin.com/in/lazaro-denis-cybersecurity/
-## Tools
-
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
- <img src="https://img.shields.io/badge/Qualys-%23D52C2C?style=for-the-badge&logo=Qualys&logoColor=white" />
-</div>
-
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-    <img src="https://img.shields.io/badge/Google%20Chronicle-%234285F4?style=for-the-badge&logo=Google-Chronicle&logoColor=white" />
-</div>
+Thanks for visiting my portfolio! I'm excited to connect and collaborate on cybersecurity projects. 
