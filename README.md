@@ -13,15 +13,18 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 
 ## 💂 Featured Projects  
 
+- **Penetration Testing Report** – A mock project documenting a penetration test methodology, findings, and remediation recommendations.  
+- **Incident Response Plan** – A mock incident response plan illustrating preparation, identification, containment, eradication, recovery, and lessons learned.  
+- **Log Analysis Automation** – Scripts and documentation for automating log collection and analysis to detect anomalies and threats.  
 - **Copy of Certificates** – A repository containing my professional certifications in cybersecurity and related fields.  
 - **OS Hardening** – A project demonstrating best practices for hardening operating systems against common threats.  
 - **Network Hardening** – Hands-on exercises for securing networks and responding to incidents.  
 - **Compliance Risk Assessment** – A case study where I performed a risk assessment for a fictitious company to evaluate compliance readiness.  
 - **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and accuracy.  
 
-## 🗘️ Certifications  
+## 🗜️ Certifications  
 
-I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and [CompTIA Security+](https://www.comptia.org/certifications/security) and continuously pursue new learning opportunities to stay current with evolving threats.  
+I am certified through the [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf) and hold the CompTIA Security+ certification. I continuously pursue new learning opportunities to stay current with evolving threats.  
 
 ## 📧 Contact & Links  
 
