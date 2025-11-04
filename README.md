@@ -37,3 +37,6 @@ I continuously pursue new learning opportunities to stay current with evolving t
 - LinkedIn: [lazaro-denis-cybersecurity](https://www.linkedin.com/in/lazaro-denis-cybersecurity/)  
 - GitHub: [ldenis001](https://github.com/ldenis001)  
 - Email: *Feel free to reach out via LinkedIn or GitHub* 
+
+## 🕵️ OSINT Activities  
+- **tookie-OSINT App** – Used tookie-OSINT to search for online presence via the terminal, illustrating practical OSINT skills and command-line proficiency.
