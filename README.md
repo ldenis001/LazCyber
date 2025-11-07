@@ -43,3 +43,6 @@ I continuously pursue new learning opportunities to stay current with evolving t
 
 - ## This playbook documents my reverse‑engineering workflow
 - Update (Nov 7 2025): Added the MoveIT Clop Analysis Playbook (archived as a ZIP) to the repository. This playbook documents my reverse‑engineering workflow for analyzing the MoveIT Clop vulnerability—detailing tools used, steps taken to unpack and inspect the software, and key findings. Feel free to explore the archive to see the methodology in action and adapt the techniques for similar reverse‑engineering tasks.
+
+## New Homelab Sysadmin Project (Nov 7 2025)
+- – I’ve added a mock VMware-based homelab to showcase core entry-level system administration skills. In this project, I provision Windows and Linux VMs, configure a domain controller, create and manage users/groups, and implement least‑privilege permissions. It also includes automation examples using Bash, PowerShell, and Ansible. Check out the homelab‑vmware‑sysadmin‑samples folder in this repo for scripts, documentation, and setup notes.
