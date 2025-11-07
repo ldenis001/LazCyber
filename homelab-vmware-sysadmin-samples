@@ -1,0 +1,257 @@
+homelab-vmware-sysadmin-samples/
+├─ README.md
+├─ LICENSE
+├─ docs/
+│  ├─ vmware-setup.md
+│  ├─ network-design.md
+│  └─ user-management.md
+├─ scripts/
+│  ├─ linux/
+│  │  ├─ create_users.sh
+│  │  └─ configure_sudo.sh
+│  └─ windows/
+│     ├─ create_ad_users.ps1
+│     └─ set_folder_acl.ps1
+├─ ansible/
+│  ├─ inventory.ini
+│  └─ create_users.yml
+└─ examples/
+   ├─ vm_template_notes.md
+   └─ screenshots/    (optional: screenshots you add)
+# Homelab: VMware → Basic Sysadmin Workflows
+
+**Summary**
+This mock project documents how I used a VMware homelab to build a Windows Server (Active Directory) and Linux server, create multiple users, and assign different permission levels. The goal is to demonstrate practical sysadmin tasks for entry-level roles: VM provisioning, user account creation, group/permission management, automation with Ansible/PowerShell, and basic security/hardening.
+
+## Contents
+- `docs/` — writeups: VMware setup, network design, and user management steps.
+- `scripts/` — sample automation (Linux shell scripts + Windows PowerShell).
+- `ansible/` — simple Ansible playbook to create Linux users.
+- `examples/` — notes on templates and screenshots.
+
+## Highlights / Skills Demonstrated
+- VMware VM creation and templating
+- Linux user/group management, sudo configuration, basic ACLs
+- Windows AD user and group management (PowerShell)
+- Automation with Ansible and PowerShell scripting
+- Basic hardening: SSH keys, snapshots, firewall rules, least privilege
+- Documentation & reproducible procedures
+
+## How to use the repo
+1. Read `docs/vmware-setup.md` to set up the homelab VMs.
+2. Use the scripts in `scripts/` (or adapt them) to create users and set permissions.
+3. Run `ansible/create_users.yml` to provision users on Linux VMs.
+4. Review `docs/user-management.md` for step-by-step commands and rationale.
+
+---
+
+## Contact
+Lazaro Denis — CyberLaz  
+LinkedIn: https://www.linkedin.com/in/lazaro-denis-cybersecurity/  
+GitHub: https://github.com/ldenis001
+
+# VMware Homelab Setup (Summary)
+
+## Goal
+Create a small homelab for testing sysadmin tasks:
+- 1 x Domain Controller (Windows Server 2019/2022)
+- 1 x Linux server (Ubuntu 22.04 LTS)
+- Optional: 1 x Windows client
+
+## Steps (high level)
+1. In VMware Workstation / ESXi:
+   - Create a new VM → choose OS ISO (Windows Server / Ubuntu).
+   - Assign 2-4 vCPU, 4–8 GB RAM (adjust to host).
+   - Disk: 40–80 GB (thin provision ok for homelab).
+   - Network: Use bridged or host-only depending on your network isolation plan.
+
+2. Install OS and run updates:
+   - Windows: enable IIS if testing web, install AD DS role (for DC).
+   - Ubuntu: `sudo apt update && sudo apt upgrade`.
+
+3. Create a **VM template** after you finish baseline config:
+   - Install VMware Tools / open-vm-tools.
+   - Apply updates, create snapshot, then clone from template for new VMs.
+
+4. Networking:
+   - Use NAT for internet access but host-only for isolation, or VLANs if supported.
+   - Configure static IPs for DC and key servers.
+
+5. Snapshots:
+   - Snapshot before major changes (updates, AD changes).
+
+## Security notes
+- Use host snapshots and export OVA before risky tests.
+- For any malware analysis or risky samples, isolate the VM from host network.
+(Only allow necessary commands)
+
+- File permissions:
+sudo chown root:devs /srv/dev-project
+sudo chmod 2770 /srv/dev-project
+
+### Windows / Active Directory examples - manual
+- On Domain Controller (Server Manager → AD DS):
+- Create OU `Staff` and `Developers`.
+- Create security groups: `SG_ReadOnly`, `SG_Admins`.
+- Create users: `Create User -> john.doe`, set initial password and `User must change password at next logon`.
+
+- Assign group membership:
+- Add `john.doe` to `Developers`.
+- Delegate rights using AD and Group Policy.
+
+- File share ACL (Server):
+- Create file share and set NTFS permissions—use groups not individuals.
+#!/bin/bash
+# create_users.sh - bulk create example users and groups, skeleton home dir, SSH key placement
+set -e
+
+GROUP_DEV="devs"
+GROUP_OPS="ops"
+
+# Create groups
+if ! getent group $GROUP_DEV >/dev/null; then
+  sudo groupadd $GROUP_DEV
+fi
+if ! getent group $GROUP_OPS >/dev/null; then
+  sudo groupadd $GROUP_OPS
+fi
+
+# Define users as "username:group:comment"
+USERS=(
+  "alice:$GROUP_DEV:Alice Developer"
+  "bob:$GROUP_DEV:Bob Developer"
+  "carol:$GROUP_OPS:Carol Operations"
+)
+
+for entry in "${USERS[@]}"; do
+  IFS=':' read -r username group comment <<< "$entry"
+  if id "$username" &>/dev/null; then
+    echo "User $username exists, skipping"
+    continue
+  fi
+  sudo useradd -m -s /bin/bash -c "$comment" -G "$group" "$username"
+  echo "$username:TempP@ssw0rd" | sudo chpasswd
+  sudo mkdir -p /home/$username/.ssh
+  sudo chown -R $username:$username /home/$username/.ssh
+  sudo chmod 700 /home/$username/.ssh
+  # optionally add authorized_keys from a central file (not included for security)
+done
+
+echo "Users created. Remember to force password change on first login if required."
+
+#!/bin/bash
+# configure_sudo.sh - grant limited sudo to group 'devs'
+
+SUDOERS_FILE="/etc/sudoers.d/devs-limited"
+
+sudo tee "$SUDOERS_FILE" >/dev/null <<'EOF'
+# devs-limited - limited sudo for devs group
+%devs ALL=(ALL) NOPASSWD: /usr/bin/systemctl, /usr/bin/journalctl, /usr/bin/htop
+EOF
+
+sudo chmod 440 "$SUDOERS_FILE"
+echo "Sudoers configured: $SUDOERS_FILE"
+
+[linux]
+lab-ubuntu ansible_host=192.168.56.101 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/id_rsa
+
+---
+- name: Create local users and groups
+  hosts: linux
+  become: yes
+  vars:
+    users:
+      - name: alice
+        comment: "Alice Developer"
+        groups: "devs"
+      - name: bob
+        comment: "Bob Developer"
+        groups: "devs"
+  tasks:
+    - name: Ensure groups exist
+      group:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - devs
+        - ops
+
+    - name: Create users
+      user:
+        name: "{{ item.name }}"
+        comment: "{{ item.comment }}"
+        groups: "{{ item.groups }}"
+        create_home: yes
+        shell: /bin/bash
+      loop: "{{ users }}"
+
+# create_ad_users.ps1
+# Run on a Domain Controller or a machine with RSAT/AD cmdlets
+
+Import-Module ActiveDirectory
+
+$users = @(
+  @{GivenName='John'; Surname='Doe'; SamAccountName='jdoe'; OU='OU=Staff,DC=lab,DC=local'; Groups=@('Developers')},
+  @{GivenName='Mary'; Surname='Smith'; SamAccountName='msmith'; OU='OU=Staff,DC=lab,DC=local'; Groups=@('Developers')}
+)
+
+foreach ($u in $users) {
+  $cn = "$($u.GivenName) $($u.Surname)"
+  New-ADUser -Name $cn -GivenName $u.GivenName -Surname $u.Surname -SamAccountName $u.SamAccountName `
+    -Path $u.OU -AccountPassword (ConvertTo-SecureString "TempP@ssw0rd1" -AsPlainText -Force) `
+    -Enabled $true -PasswordNeverExpires $false -ChangePasswordAtLogon $true
+
+  foreach ($g in $u.Groups) {
+    Add-ADGroupMember -Identity $g -Members $u.SamAccountName
+  }
+  Write-Output "Created $($u.SamAccountName) and added to $($u.Groups -join ',')"
+}
+
+
+
+# set_folder_acl.ps1 - Set NTFS permission on a folder for a group
+param(
+  [string]$Path = "C:\srv\project",
+  [string]$Group = "DOMAIN\\Developers"
+)
+
+if (-not (Test-Path $Path)) {
+  New-Item -Path $Path -ItemType Directory -Force
+}
+
+$acl = Get-Acl $Path
+$rule = New-Object System.Security.AccessControl.FileSystemAccessRule($Group,"Modify", "ContainerInherit,ObjectInherit","None","Allow")
+$acl.SetAccessRule($rule)
+Set-Acl -Path $Path -AclObject $acl
+
+Write-Output "Set Modify permission for $Group on $Path"
+
+
+# Network Design (homelab)
+
+- DC: 192.168.56.10 (static)
+- Ubuntu: 192.168.56.101
+- Host: NAT/bridged depending on whether you want internet access.
+
+Use separate VM networks if you need to simulate DMZ vs internal.
+
+# VM Template Notes
+
+Steps to create a base template:
+1. Install OS and apply updates
+2. Install VMware tools / open-vm-tools
+3. Create local user 'labadmin' and SSH key for automation
+4. Clean logs, zero unused space (optional)
+5. Power off and convert to template / create snapshot
+git clone git@github.com:ldenis001/reverse-engineering-project.git
+cd reverse-engineering-project
+mkdir homelab-vmware-sysadmin-samples
+# create files as above inside that folder
+git add homelab-vmware-sysadmin-samples
+git commit -m "Add homelab sysadmin mock project: VMware setup, user management scripts, Ansible examples, and documentation"
+git push origin main
+
+
+
+
+
