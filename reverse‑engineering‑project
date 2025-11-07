@@ -1,3 +1,9 @@
+# moveit-cl0p-analysis-playbook
+
+This repo is a defensive, educational analysis of the CL0P / MOVEit incident. It contains notebooks demonstrating static analysis on benign data, detection rule templates, and notes for responders. No malware or exploit code is included.
+
+![Safety](https://img.shields.io/badge/Samples-Benign%20Only-green) ![Purpose](https://img.shields.io/badge/Purpose-Defensive%20Education-blue)
+
 unzip moveit-cl0p-analysis-playbook.zip
 cd moveit-cl0p-analysis-playbook
 git init
