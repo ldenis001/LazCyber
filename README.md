@@ -40,3 +40,6 @@ I continuously pursue new learning opportunities to stay current with evolving t
 
 ## 🕵️ OSINT Activities  
 - **tookie-OSINT App** – Used tookie-OSINT to search for online presence via the terminal, illustrating practical OSINT skills and command-line proficiency.
+
+- ## This playbook documents my reverse‑engineering workflow
+- Update (Nov 7 2025): Added the MoveIT Clop Analysis Playbook (archived as a ZIP) to the repository. This playbook documents my reverse‑engineering workflow for analyzing the MoveIT Clop vulnerability—detailing tools used, steps taken to unpack and inspect the software, and key findings. Feel free to explore the archive to see the methodology in action and adapt the techniques for similar reverse‑engineering tasks.
