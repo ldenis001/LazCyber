@@ -1,0 +1,29 @@
+unzip moveit-cl0p-analysis-playbook.zip
+cd moveit-cl0p-analysis-playbook
+git init
+git add .
+git commit -m "Add benign static-analysis playbook: strings, entropy, Sigma/YARA, notes"
+git branch -M main
+git remote add origin https://github.com/<your-username>/moveit-cl0p-analysis-playbook.git
+git push -u origin main
+
+README.md
+/notes                # markdown writeups
+  ├─ 01-overview.md        # high-level timeline of the incident (sources cited)
+  ├─ 02-attack-chain.md    # TTPs, killchain, where the webshell fits
+  └─ 03-detection.md       # recommended detections
+/notebooks            # Jupyter notebooks (static analysis helpers, visualizations)
+  └─ pe_strings_and_entropy.ipynb
+/rules                # detection signatures
+  ├─ sigma/
+  │   └─ moveit_webshell_sigma.yml
+  └─ yara/
+      └─ sample_strings.yar
+/scripts              # safe parsing + tooling (benign)
+  ├─ parse_iocs.py         # parse public IOCs (no malware)
+  └─ pe_summary.py         # parse PE headers of benign samples & calculate entropy
+/data                 # small, benign sample files or synthetic examples only
+  └─ benign_samples/     
+docs/                 # exported PDFs, diagrams
+LICENSE
+CONTRIBUTING.md
