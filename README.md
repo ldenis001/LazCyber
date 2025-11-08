@@ -46,3 +46,25 @@ I continuously pursue new learning opportunities to stay current with evolving t
 
 ## New Homelab Sysadmin Project (Nov 7 2025)
 - – I’ve added a mock VMware-based homelab to showcase core entry-level system administration skills. In this project, I provision Windows and Linux VMs, configure a domain controller, create and manage users/groups, and implement least‑privilege permissions. It also includes automation examples using Bash, PowerShell, and Ansible. Check out the homelab‑vmware‑sysadmin‑samples folder in this repo for scripts, documentation, and setup notes.
+- 
+# 🧠 Cybersecurity Awareness Training
+I recently designed and delivered a **Cybersecurity Awareness Training** session to help my team strengthen their understanding of everyday cyber threats and how to protect both personal and organizational data.
+
+This project is available here: [Cybersecurity Awareness Training Repository](https://github.com/ldenis001/Cybersecurity-Awareness-Training)
+
+### 🔍 Overview
+The training covered:
+- Recognizing and reporting **phishing** and **social engineering** attempts  
+- Understanding **ransomware**, **DNS spoofing**, and **Man-in-the-Middle (MitM)** attacks  
+- Reducing **financial fraud risk** through awareness and verification  
+- Applying **risk management** practices, including cyber insurance  
+
+### 🎯 Goal
+To promote a culture of security mindfulness and empower non-technical team members with practical steps to safeguard data and systems.
+
+### 🧩 Resources Referenced
+- [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)  
+- [CISA Cybersecurity Awareness Resources](https://www.cisa.gov/cybersecurity-awareness-programs)  
+- [FTC Cybersecurity for Small Business](https://www.ftc.gov/business-guidance/small-businesses/cybersecurity)  
+- [Stay Safe Online (National Cybersecurity Alliance)](https://staysafeonline.org)
+
