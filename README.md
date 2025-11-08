@@ -20,16 +20,21 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 - **OS Hardening** – A project demonstrating best practices for hardening operating systems against common threats.  
 - **Network Hardening** – Hands-on exercises for securing networks and responding to incidents.  
 - **Compliance Risk Assessment** – A case study where I performed a risk assessment for a fictitious company to evaluate compliance readiness.  
-- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and accuracy.  
+- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and accuracy.
 
-## 🗜️ Certifications  
+- ## 🧩 Security Operations Projects
 
-- **CompTIA Security+ (SY0‑701)** – valid through Oct 6 2028  
-- **Splunk: Introduction to Enterprise Security** – Completed Nov 19 2024  
-- **NIST Security & Privacy Controls Introductory Course** – Completed Apr 2024  
-- [Google Cybersecurity Certificate](./Cyber%20Security%20Certificate.pdf)  
-- [Full certificate list (PDF)](./certificates/Certificate%20List%20Cyber.pdf)  
+- **Azure Sentinel Log Correlation Lab** – Built and configured Microsoft Sentinel to collect and analyze security events from a homelab. Created analytics rules and workbooks to detect RDP brute-force and privilege escalation attempts.
+- **Splunk Threat Hunting Dashboard** – Developed a Splunk dashboard to visualize event logs and detect suspicious PowerShell and Sysmon activity.
+- **Nessus Vulnerability Scan Automation** – Automated scanning and reporting using Nessus Essentials and PowerShell for remediation workflows.
 
+## 🗜️ Certifications
+- **Microsoft SC-200: Security Operations Analyst (2024)**
+- **CompTIA Security+ (SY0-701)** – valid through Oct 6 2028  
+- **Google Cybersecurity Certificate (2024)**
+- **NIST RMF Certified (FISMA, CSF, SCRM, 800-37, 800-53)**  
+- **Vulnerability Management Detection & Response (2024)**
+- **PCI Compliance (2024)**
 I continuously pursue new learning opportunities to stay current with evolving threats.  
 
 ## 📧 Contact & Links  
@@ -44,8 +49,10 @@ I continuously pursue new learning opportunities to stay current with evolving t
 - ## This playbook documents my reverse‑engineering workflow
 - Update (Nov 7 2025): Added the MoveIT Clop Analysis Playbook (archived as a ZIP) to the repository. This playbook documents my reverse‑engineering workflow for analyzing the MoveIT Clop vulnerability—detailing tools used, steps taken to unpack and inspect the software, and key findings. Feel free to explore the archive to see the methodology in action and adapt the techniques for similar reverse‑engineering tasks.
 
-## New Homelab Sysadmin Project (Nov 7 2025)
-- – I’ve added a mock VMware-based homelab to showcase core entry-level system administration skills. In this project, I provision Windows and Linux VMs, configure a domain controller, create and manage users/groups, and implement least‑privilege permissions. It also includes automation examples using Bash, PowerShell, and Ansible. Check out the homelab‑vmware‑sysadmin‑samples folder in this repo for scripts, documentation, and setup notes.
+## 🧠 Hands-On Labs
+- **Windows Event Log Triage:** Used Sysmon + PowerShell to identify failed login patterns and malicious processes.
+- **Threat Hunting Simulation:** Conducted attack detection exercises in Azure Sentinel, documenting correlation logic and mitigations.
+- **Vulnerability Scan & Patch:** Scanned a homelab using Nessus and patched identified CVEs, documenting findings.
 - 
 # 🧠 Cybersecurity Awareness Training
 I recently designed and delivered a **Cybersecurity Awareness Training** session to help my team strengthen their understanding of everyday cyber threats and how to protect both personal and organizational data.
