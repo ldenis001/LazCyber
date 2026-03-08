@@ -20,7 +20,8 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 - **OS Hardening** – A project demonstrating best practices for hardening operating systems against common threats.  
 - **Network Hardening** – Hands-on exercises for securing networks and responding to incidents.  
 - **Compliance Risk Assessment** – A case study where I performed a risk assessment for a fictitious company to evaluate compliance readiness.  
-- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and accuracy.
+- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and acc
+- - **Tenable Vulnerability Management Lab (Mar 2026)** – STIG compliance scanning baseline→introduce→remediate workflow using Tenable. [Repo](https://github.com/ldenis001/tenable-vulnerability-management-lab)
 
 - ## 🧩 Security Operations Projects
 
