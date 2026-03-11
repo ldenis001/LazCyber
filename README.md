@@ -2,6 +2,13 @@
 
 Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and CompTIA Security+ and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
 
+🚀 Featured Security Projects
+• Tenable Vulnerability Management Lab
+• Azure Sentinel Log Correlation Lab
+• Splunk Threat Hunting Dashboard
+• Incident Response Plan
+• Penetration Testing Report
+
 ## 🔏 Skills & Tools  
 
 - Network security, vulnerability assessment, and penetration testing  
