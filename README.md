@@ -25,6 +25,29 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 
 - ## 🧩 Security Operations Projects
 
+- 🧩 Security Operations Projects
+
+**Tenable Vulnerability Management Lab (Mar 2026)**
+Designed and implemented a vulnerability management workflow using **Tenable / Nessus** in a cloud-based lab environment. Deployed a Windows virtual machine, performed baseline vulnerability scans against **DISA STIG benchmarks**, identified security gaps, and documented remediation steps to improve system hardening and compliance posture.
+
+Key Activities:
+
+* Configured and prepared a Windows VM for vulnerability assessment
+* Executed **STIG compliance baseline scans** using Tenable
+* Identified vulnerabilities and analyzed security findings
+* Implemented remediation steps and system hardening
+* Re-scanned systems to validate remediation effectiveness
+* Documented the full vulnerability management workflow
+
+Repository:
+https://github.com/ldenis001/tenable-vulnerability-management-lab
+
+---
+
+**Azure Sentinel Log Correlation Lab**
+Built and configured Microsoft Sentinel to collect and analyze secu
+
+
 - **Azure Sentinel Log Correlation Lab** – Built and configured Microsoft Sentinel to collect and analyze security events from a homelab. Created analytics rules and workbooks to detect RDP brute-force and privilege escalation attempts.
 - **Splunk Threat Hunting Dashboard** – Developed a Splunk dashboard to visualize event logs and detect suspicious PowerShell and Sysmon activity.
 - **Nessus Vulnerability Scan Automation** – Automated scanning and reporting using Nessus Essentials and PowerShell for remediation workflows.
