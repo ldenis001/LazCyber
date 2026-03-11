@@ -1,6 +1,7 @@
-# Lazaro Denis – Cybersecurity Professional  
+# Lazaro Denis – Cyber Risk & GRC Analyst Portfolio | NIST CSF, ISO 27001, Vulnerability Management, Security Documentation
 
-Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and CompTIA Security+ and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
+I'm a cybersecurity GRC professional with a background in commercial insurance underwriting and enterprise risk management — giving me a perspective most security professionals don't have: I understand risk as a business decision, not just a technical one.
+Before moving fully into cybersecurity, I spent years evaluating and pricing complex cyber, E&O, and professional lines risks for organizations across industries. That foundation means I don't just identify vulnerabilities — I can contextualize them against business impact, regulatory exposure, and risk appetite in a way that resonates with leadership and auditors alike.
 
 🚀 Featured Security Projects
 • Tenable Vulnerability Management Lab
