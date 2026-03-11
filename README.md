@@ -1,8 +1,9 @@
-# Lazaro Denis – Cybersecurity Professional  
+# Lazaro Denis – Cybersecurity GRC Professional
 
-Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning from a strong background in risk management and commercial insurance. I am certified in Google Cybersecurity and CompTIA Security+ and passionate about protecting systems and data. My mission is to help organizations anticipate, identify, and mitigate cyber threats.  
+I'm a cybersecurity GRC professional with a background in commercial insurance underwriting and enterprise risk management — giving me a perspective most security professionals don't have: I understand risk as a business decision, not just a technical one.
+Before moving fully into cybersecurity, I spent years evaluating and pricing complex cyber, E&O, and professional lines risks for organizations across industries. That foundation means I don't just identify vulnerabilities — I can contextualize them against business impact, regulatory exposure, and risk appetite in a way that resonates with leadership and auditors alike.
 
-🚀 Featured Security Projects
+## 🚀 Featured Security Projects
 • Tenable Vulnerability Management Lab
 • Azure Sentinel Log Correlation Lab
 • Splunk Threat Hunting Dashboard
@@ -11,24 +12,21 @@ Hello! I'm Lazaro Denis (CyberLaz), a cybersecurity professional transitioning f
 
 ## 🔏 Skills & Tools  
 
-- Network security, vulnerability assessment, and penetration testing  
-- Risk analysis and compliance frameworks (e.g., NIST, ISO 27001)  
-- Operating system hardening (Windows & Linux)  
-- Python scripting for automation and debugging  
-- Cloud security fundamentals  
-- Excellent communication and stakeholder management skills  
+- Risk Frameworks: NIST CSF, NIST RMF (800-37, 800-53), ISO 27001, NIST 800-171, PCI-DSS
+- Compliance Operations: Control mapping, gap analysis, audit evidence collection, POA&M development
+- Vendor & Third-Party Risk: Risk questionnaires, due diligence reviews, contractual risk transfer
+- Policy & Governance: Policy development, exception management, security awareness programs
+- Technical Depth: Vulnerability management (Tenable/Nessus), SIEM (Splunk, Azure Sentinel), OS hardening — so I can work directly with technical teams and translate findings for business stakeholders
+- Tools: Microsoft 365, Azure, PowerShell, Python (automation), Spiceworks
 
 ## 💂 Featured Projects  
 
-- **Penetration Testing Report** – A mock project documenting a penetration test methodology, findings, and remediation recommendations.  
-- **Incident Response Plan** – A mock incident response plan illustrating preparation, identification, containment, eradication, recovery, and lessons learned.  
-- **Log Analysis Automation** – Scripts and documentation for automating log collection and analysis to detect anomalies and threats.  
-- **Copy of Certificates** – A repository containing my professional certifications in cybersecurity and related fields.  
-- **OS Hardening** – A project demonstrating best practices for hardening operating systems against common threats.  
-- **Network Hardening** – Hands-on exercises for securing networks and responding to incidents.  
-- **Compliance Risk Assessment** – A case study where I performed a risk assessment for a fictitious company to evaluate compliance readiness.  
-- **Python Debugging & Automation** – Scripts and lab work focused on debugging Python applications and improving code efficiency and acc
 - - **Tenable Vulnerability Management Lab (Mar 2026)** – STIG compliance scanning baseline→introduce→remediate workflow using Tenable. [Repo](https://github.com/ldenis001/tenable-vulnerability-management-lab)
+📋 NIST CSF Compliance Risk Assessment – Gap analysis and control mapping for a fictitious organization
+🛡️ Incident Response Plan – Full IR lifecycle documentation aligned to NIST 800-61
+🔍 Tenable Vulnerability Management Lab – STIG-based scan → findings → remediation → risk prioritization workflow
+📢 Cybersecurity Awareness Training – Designed and delivered security awareness content covering phishing, ransomware, MitM, and financial fraud
+🔐 MoveIT Clop Vulnerability Analysis – Reverse-engineering and threat analysis playbook
 
 - ## 🧩 Security Operations Projects
 
