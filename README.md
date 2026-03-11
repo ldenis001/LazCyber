@@ -22,11 +22,11 @@ Before moving fully into cybersecurity, I spent years evaluating and pricing com
 ## 💂 Featured Projects  
 
 - **Tenable Vulnerability Management Lab (Mar 2026)** – STIG compliance scanning baseline→introduce→remediate workflow using Tenable. [Repo](https://github.com/ldenis001/tenable-vulnerability-management-lab)
--📋 NIST CSF Compliance Risk Assessment – Gap analysis and control mapping for a fictitious organization
--🛡️ Incident Response Plan – Full IR lifecycle documentation aligned to NIST 800-61
--🔍 Tenable Vulnerability Management Lab – STIG-based scan → findings → remediation → risk prioritization workflow
--📢 Cybersecurity Awareness Training – Designed and delivered security awareness content covering phishing, ransomware, MitM, and financial fraud
--🔐 MoveIT Clop Vulnerability Analysis – Reverse-engineering and threat analysis playbook
+- 📋 NIST CSF Compliance Risk Assessment – Gap analysis and control mapping for a fictitious organization
+- 🛡️ Incident Response Plan – Full IR lifecycle documentation aligned to NIST 800-61
+- 🔍 Tenable Vulnerability Management Lab – STIG-based scan → findings → remediation → risk prioritization workflow
+- 📢 Cybersecurity Awareness Training – Designed and delivered security awareness content covering phishing, ransomware, MitM, and financial fraud
+- 🔐 MoveIT Clop Vulnerability Analysis – Reverse-engineering and threat analysis playbook
 
 - ## 🧩 Security Operations Projects
 
