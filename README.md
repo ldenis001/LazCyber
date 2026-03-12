@@ -5,6 +5,7 @@ Before moving fully into cybersecurity, I spent years evaluating and pricing com
 
 ## 🚀 Featured Security Projects
 • Tenable Vulnerability Management Lab
+• Third-Party Vendor Risk Assessment Lab (TPRM)
 • Azure Sentinel Log Correlation Lab
 • Splunk Threat Hunting Dashboard
 • Incident Response Plan
@@ -22,6 +23,7 @@ Before moving fully into cybersecurity, I spent years evaluating and pricing com
 ## 💂 Featured Projects  
 
 - **Tenable Vulnerability Management Lab (Mar 2026)** – STIG compliance scanning baseline→introduce→remediate workflow using Tenable. [Repo](https://github.com/ldenis001/tenable-vulnerability-management-lab)
+- **Third-Party Vendor Risk Assessment Lab (Mar 2026)** – Full TPRM lifecycle: vendor intake, inherent risk scoring, 38-question security questionnaire, NIST CSF + ISO 27001 control mapping, risk register (10 risks), POA&M, and executive recommendation. [Repo](https://github.com/ldenis001/third-party-vendor-risk-assessment-lab)
 - 📋 NIST CSF Compliance Risk Assessment – Gap analysis and control mapping for a fictitious organization
 - 🛡️ Incident Response Plan – Full IR lifecycle documentation aligned to NIST 800-61
 - 🔍 Tenable Vulnerability Management Lab – STIG-based scan → findings → remediation → risk prioritization workflow
